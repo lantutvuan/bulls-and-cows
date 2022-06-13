@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(51, 51, 51);
+    color: rgb(214, 214, 214);
+    box-sizing: border-box;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border-style: none;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 83, 83);
+}
+
+.button:hover {
+    background-color: rgb(134, 134, 134);
+    color:rgb(46, 46, 46)
+}
+
+.input {
+    padding: 0.5rem;
+    background: rgb(83, 83, 83);
+    width: 7.5rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-style: none;
+    margin: 2rem;
+}
+
+.block {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
